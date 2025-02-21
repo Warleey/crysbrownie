@@ -24,7 +24,7 @@ model Restaurant {
   products       Product[]
   orders         Order[]
   createdAt      DateTime       @default(now())
-  updateAt       DateTime       @updatedAt
+  updatedAt      DateTime       @updatedAt
 }
 
 model MenuCategory {
@@ -34,7 +34,7 @@ model MenuCategory {
   restaurantId String
   products     Product[]
   createdAt    DateTime   @default(now())
-  updateAt     DateTime   @updatedAt
+  updatedAt    DateTime   @updatedAt
 }
 
 model Product {
@@ -84,6 +84,6 @@ enum OrderStatus {
 }
 
 enum ConsumptionMethod {
-  TAKEWAY
+  TAKEAWAY
   DINE_IN
 }

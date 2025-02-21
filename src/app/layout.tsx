@@ -9,8 +9,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Crys Brownie",
-  description: "Sabor que derrete o coração.",
+  title: "FSW Donalds",
+  description: "Bora finalizar esse projeto lindo!",
 };
 
 export default function RootLayout({
